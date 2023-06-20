@@ -9,7 +9,7 @@ variables:
   resourceGroup: rg-terraform-state
   storageAccount: statetf1
   container: tfstate
-  tfstateFile: terraform.tfstate
+  tfstateFile: tfstate
   anyTfChanges: false
 
 steps:
